@@ -1,5 +1,13 @@
 import React from "react";
+import "./assets/css/App.css";
+import ExcelComparator from "./components/ExcelComparator";
 
-export default function App() {
-  return <div>App</div>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <ExcelComparator />
+    </div>
+  );
+};
+
+export default App;
